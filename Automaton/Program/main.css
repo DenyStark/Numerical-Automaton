@@ -1,0 +1,138 @@
+#hed0 {
+	color: #404040;
+	font-size:160%;
+	font-weight: bold;
+	text-align: center;
+}
+#hed1 {
+	color: #404040;
+	font-size:120%;
+	text-align: center;
+}
+#hed2 {
+	color: #404040;
+	font-size:105%;
+	text-align: center;
+}
+#header {
+	border: solid  1px #000000; 
+	background: #FFF200;
+	 margin: auto;
+	margin-top: 25px; 
+	padding-left: 15px; 
+	padding-right: 15px; 
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	width: 37%;
+	text-align: center
+}
+#first {
+	border: solid  2px #FFF200;
+	background: Royalblue;
+	color: #FFF200;
+}
+#last {
+	border: solid  2px #FFF200;
+	background: Royalblue;
+	color: #FFF200
+}
+#key {
+	border: solid  2px #FFF200;
+	background: Royalblue;
+	color: #FFF200
+}
+
+#calculate {
+	font-size: 80%;
+	margin: auto;
+	display: block;
+	color: #404040;
+	text-decoration: none;
+	padding: .5em 2em;
+	outline: none;
+	border: solid  1px #000000; 
+	border-radius: 6px;
+	background: linear-gradient(#FFF200, #C8B300) #E38916;
+	transition: 0.2s;	
+}
+
+#calculate:hover{
+	color: Royalblue;
+	border: solid  1px #404040;
+}
+.in{
+	border-radius: 4px 4px 4px 4px;
+}
+
+#rez {
+	border: solid  1px #000000; 
+	background: #FFF200;
+	width: 750px;
+    padding: 10px;
+    margin: auto;
+	margin-top: 55px;
+	-moz-box-sizing: border-box; /* Для Firefox */
+    -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+    box-sizing: border-box; /* Для IE и Opera */
+	padding: 8px; 
+	padding-left: 15px; 
+	padding-right: 15px; 
+	padding-bottom: 15px; 
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	color:#404040;
+	font-size: 105%;
+	text-align: left;
+}
+
+#rez:hover {
+	border: solid  1px #000000; 
+	background: #DDD200;
+	width: 1150px;
+    padding: 10px;
+    margin: auto;
+	margin-top: 55px;
+	-moz-box-sizing: border-box; /* Для Firefox */
+    -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+    box-sizing: border-box; /* Для IE и Opera */
+	padding: 8px; 
+	padding-left: 15px; 
+	padding-right: 15px; 
+	padding-bottom: 15px; 
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	color:#000000;
+	font-size: 175%;
+	text-align: left;
+}
+
+.vis{
+	display: none;
+}
+
+.parent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+.block {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -125px 0 0 -125px;
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        border: none;
+    }
+}
+

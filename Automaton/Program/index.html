@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Числовий автомат</title>
+		<link rel="stylesheet" href="main.css">
+		<script src="calculate.js">
+		</script>
+	</head>
+	<body bgcolor="Royalblue" text="FFF200" align="center">
+		<div id="header" align="center">
+			<p id="hed0">"Захоплююча теорія чисел"</p>
+			<p id="hed1">Перетворення числа <b><i>m</i></b> в <b><i>n</i></b> <br>за допомогою операцій віднімання, множення та ділення <br>з використанням числа x</p>
+		</div>
+		<br>
+		<center>
+			<br><br>
+			<font color="FFF200" size="5">Введіть число m:</font> &nbsp; <input class="in" id="first" type="text" name="first" size="12" maxlength="7">
+			<br><br>
+			<font color="FFF200" size="5">Введіть число n:</font> &nbsp; &nbsp;<input class="in" id="last" type="text" name="last" size="13" maxlength="7">
+			<br><br>
+			<font color="FFF200" size="5">Введіть число x:</font> &nbsp; &nbsp;<input class="in" id="key" type="text" name="last" size="13" maxlength="1">
+			<br><br>
+			<p><input id="calculate" type="button" name="but1" onclick="avtomat()" value="Розрахунок"></p>
+		</center>
+		<div id="rez" style="display:none;"></div>
+	</body>
+</html>

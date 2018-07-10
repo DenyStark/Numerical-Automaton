@@ -1,0 +1,79 @@
+#hed0 {
+	color: #404040;
+	font-size:160%;
+	font-weight: bold;
+	text-align: center;
+}
+#hed1 {
+	color: #404040;
+	font-size:120%;
+	text-align: center;
+}
+#header {
+	border: solid  1px #000000; 
+	background: #FFF200;
+	margin: auto;
+	margin-top: 25px; 
+	padding-left: 15px; 
+	padding-right: 15px; 
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	width: 37%;
+	text-align: center
+}
+#a {
+	border: solid  2px #FFF200;
+	background: Royalblue;
+	color: #FFF200;
+	border-radius: 4px 4px 4px 4px;
+	font-size:130%;
+	text-align: center
+}
+#b {
+	border: solid  2px #FFF200;
+	background: Royalblue;
+	color: #FFF200;
+	border-radius: 4px 4px 4px 4px;
+	font-size:130%;
+	text-align: center
+}
+#c {
+	border: solid  2px #FFF200;
+	background: Royalblue;
+	color: #FFF200;
+	border-radius: 4px 4px 4px 4px;
+	font-size:130%;
+	text-align: center
+}
+#but {
+	font-size: 80%;
+	color: #404040;
+	text-decoration: none;
+	padding: .5em 2em;
+	outline: none;
+	border: solid  1px #000000; 
+	border-radius: 6px;
+	background: linear-gradient(#FFF200, #C8B300) #E38916;
+	transition: 0.2s;	
+}
+
+#but:hover{
+	color: Royalblue;
+	border: solid  1px #404040;
+}
+#but1 {
+	font-size: 80%;
+	color: #404040;
+	text-decoration: none;
+	padding: .5em 2em;
+	outline: none;
+	border: solid  1px #000000; 
+	border-radius: 6px;
+	background: linear-gradient(#FFF200, #C8B300) #E38916;
+	transition: 0.2s;	
+}
+
+#but1:hover{
+	color: Royalblue;
+	border: solid  1px #404040;
+}
